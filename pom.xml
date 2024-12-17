@@ -30,14 +30,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- Correct PostgreSQL dependency -->
 		<dependency>
-                <dependency>
-          <groupId>org.postgresql</groupId>
-          <artifactId>postgresql</artifactId>
-        <version>42.6.0</version> <!-- Make sure to use the latest version -->
-</dependency>
-
-       </dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.6.0</version> <!-- Make sure to use the latest version -->
+		</dependency>
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -69,3 +67,4 @@
 	</build>
 
 </project>
+
